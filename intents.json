@@ -1,0 +1,38 @@
+
+{"intents": [
+    {
+    "tag": "greetings",
+    "patterns": ["Xin chào", "Chào bạn", "Hi", "Xin chào bạn", "Hế nhô", "Hello", "Hi"],
+    "responses": ["Chào bạn, tôi có thể giúp gì không","Rất vui được gặp bạn"]
+    },
+    {
+    "tag": "goodbye",
+    "patterns": ["Bye Bye","Tạm biệt","Nói chuyện sau nhé","Chúc một ngày tốt lành"],
+    "responses": ["Chào bạn, tôi có thể giúp gì không","Rất vui được gặp bạn"]
+    },
+    {
+    "tag": "thanks",
+    "patterns": ["Cảm ơn", "Thanks", "Rất cảm ơn bạn"],
+    "responses": ["Không có gì", "Không vấn đề gì", "Tôi rất vui được giúp bạn"]
+    },
+    {
+    "tag":  "name",
+    "patterns": ["Bạn tên là gì?", "Cho mình biết tên bạn", "Bạn là ai?"],
+    "responses": ["Mình là Chatbot. Mình có thể giúp gì cho bạn?", "Mình là Chatbot. Bạn cần giúp đỡ gì không?", "Mình là trợ lý ảo Chatbot. Có gì tôi có thể giúp bạn không?"]
+    },
+    {    
+    "tag":  "intro",    
+    "patterns": ["Bạn là ai?", "Bạn có thể giới thiệu về mình không?", "Mình không hiểu bạn là gì?"],
+    "responses": ["Chào bạn! Tôi là một chatbot. Tôi được lập trình để giúp bạn giải đáp các câu hỏi hoặc vấn đề bạn đang gặp phải. Bạn cần giúp đỡ gì không?"]
+    },
+    {
+    "tag": "feelings_good",
+    "patterns": ["Tôi cảm thấy vui", "Tôi thấy hạnh phúc", "Tôi rất hạnh phúc"],
+    "responses": ["Tôi rất vui khi nghe điều đó!", "Tôi cũng rất hạnh phúc vì bạn cảm thấy vui!", "Tôi hy vọng bạn sẽ cảm thấy vui và hạnh phúc hơn nữa trong tương lai!"]
+    },
+    {
+    "tag": "feeling_bad",
+    "patterns": ["Tôi buồn", "Tôi thấy tồi tệ", "Tôi cảm thấy chán"],
+    "responses": ["Tôi rất tiếc khi nghe điều đó. Bạn có muốn nói với tôi về điều gì?", "Tôi hiểu cảm giác của bạn. Bạn muốn chia sẻ điều gì với tôi không?", "Tôi hy vọng mọi thứ sẽ tốt hơn cho bạn trong thời gian tới."]
+    }
+]}
